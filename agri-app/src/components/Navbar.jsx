@@ -33,9 +33,9 @@ function Navbar() {
           </a>
 
           <div className="flex items-center space-x-3 md:space-x-0 rtl:space-x-reverse md:order-2">
-            <button onClick={toggleSearch} className="flex items-center gap-2 text-white bg-gray-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-300">
+            {/* <button onClick={toggleSearch} className="flex items-center gap-2 text-white bg-gray-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-300">
               <Search className="w-4 h-4" />
-            </button>
+            </button> */}
 
             <button onClick={openModal} className="flex ml-0.5 items-center gap-2 text-white bg-gray-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-300">
              
